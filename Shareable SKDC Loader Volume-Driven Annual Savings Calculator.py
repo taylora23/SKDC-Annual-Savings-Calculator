@@ -28,6 +28,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown("<p style='color: red;'>Annual Savings Achieved: {formatted_result}</p>", unsafe_allow_html=True)
 
 
 
