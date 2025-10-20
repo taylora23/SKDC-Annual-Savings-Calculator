@@ -13,5 +13,6 @@ result = user_input * fixed_number
 
 formatted_result = f"£{result:,.2f}"
 
-st.write(f"Result: {user_input} x £{fixed_number,.2f} = {formatted_result}")
+st.write(f"Result: {user_input} x £{fixed_number:,.2f} = {formatted_result}")
+
 
