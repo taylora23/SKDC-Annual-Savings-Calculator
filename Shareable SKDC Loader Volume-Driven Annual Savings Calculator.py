@@ -19,10 +19,11 @@ formatted_result = f"£{result:,.2f}"
 st.markdown(
     f"""
     <p style='font-size:30px; font-weight:bold; text-align:center;'>
-        Annual Savings Achieved: {user_input} x £{fixed_number:,.2f} = {formatted_result}
+        Annual Savings Achieved: {formatted_result}
     </p>
     """,
     unsafe_allow_html=True
 )
+
 
 
