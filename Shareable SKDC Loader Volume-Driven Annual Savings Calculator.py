@@ -6,7 +6,7 @@ st.set_page_config(page_title="SKDC Loader Volume-Driven Annual Savings Calculat
 
 st.image("Ambitions Public Sector Logo.png", width=240)
 st.markdown(
-    "<h1 style='font-size: 60px;'>SKDC Loader Volume-Driven Annual Savings Calculator</h1>",
+    "<h1 style='font-size: 40px;'>SKDC Loader Volume-Driven Annual Savings Calculator</h1>",
     unsafe_allow_html=True
 )
 
@@ -27,5 +27,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
