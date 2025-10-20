@@ -5,7 +5,10 @@ import streamlit as st
 st.set_page_config(page_title="SKDC Loader Volume-Driven Annual Savings Calculator", layout="wide")
 
 st.image("Ambitions Public Sector Logo.png", width=240)
-st.title("SKDC Loader Volume-Driven Annual Savings Calculator")
+st.markdown(
+    "<h1 style='font-size: 60px;'>SKDC Loader Volume-Driven Annual Savings Calculator</h1>",
+    unsafe_allow_html=True
+)
 
 fixed_number = 9436.24
 
@@ -24,4 +27,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
