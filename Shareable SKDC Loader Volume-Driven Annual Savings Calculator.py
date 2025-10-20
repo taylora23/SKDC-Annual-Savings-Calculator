@@ -12,8 +12,13 @@ st.markdown(
 
 fixed_number = 9436.24
 
+st.markdown(
+    '<p style="font-size:30px;">Enter the quantity of workers</p>',
+    unsafe_allow_html=True
+)
+
 user_input = st.number_input(
-  "Enter the quantity of workers", min_value=1, step=1, format="%d")
+  "", min_value=1, step=1, format="%d")
 
 result = user_input * fixed_number
 
@@ -27,3 +32,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
