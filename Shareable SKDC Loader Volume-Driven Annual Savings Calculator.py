@@ -13,7 +13,7 @@ st.markdown(
 fixed_number = 9436.24
 
 st.markdown(
-    '<p style="font-size:25px;">Enter the quantity of workers:</p>',
+    '<p style="font-size:25px; margin: 0;">Enter the quantity of workers:</p>',
     unsafe_allow_html=True
 )
 
@@ -32,6 +32,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
